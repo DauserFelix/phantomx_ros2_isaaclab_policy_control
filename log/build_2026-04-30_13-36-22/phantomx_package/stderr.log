@@ -1,0 +1,3 @@
+gmake[2]: *** No rule to make target 'CMakeFiles/phantomx_node.dir/build'.  Stop.
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/phantomx_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

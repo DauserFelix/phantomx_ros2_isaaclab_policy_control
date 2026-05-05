@@ -1,0 +1,6 @@
+[31mCMake Error at cmake_install.cmake:70 (file):
+  file INSTALL cannot find
+  "/workspace/ros2_ws/src/phantomx_package/scripts/phantomx_node_multi_joint.py":
+  No such file or directory.
+
+[0m

@@ -1,0 +1,148 @@
+[0.006s] Invoking command in '/workspace/ros2_ws/build/phantomx_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /workspace/ros2_ws/build/phantomx_package -- -j16 -l16
+[0.046s] [ 50%] [32mBuilding CXX object CMakeFiles/phantomx_node.dir/src/phantomx_node.cpp.o[0m
+[0.052s] [01m[K/workspace/ros2_ws/src/phantomx_package/src/phantomx_node.cpp:1:2:[m[K [01;31m[Kerror: [m[Kinvalid preprocessing directive #!
+[0.052s]     1 | #[01;31m[K![m[K/usr/bin/env python3
+[0.052s]       |  [01;31m[K^[m[K
+[0.052s] [01m[K/workspace/ros2_ws/src/phantomx_package/src/phantomx_node.cpp:10:26:[m[K [01;35m[Kwarning: [m[Kcharacter constant too long for its type
+[0.052s]    10 |         super().__init__([01;35m[K'phantomx_node'[m[K)
+[0.052s]       |                          [01;35m[K^~~~~~~~~~~~~~~[m[K
+[0.052s] [01m[K/workspace/ros2_ws/src/phantomx_package/src/phantomx_node.cpp:12:11:[m[K [01;31m[Kerror: [m[Kinvalid preprocessing directive #Publisher
+[0.052s]    12 |         # [01;31m[KPublisher[m[K erstellen
+[0.052s]       |           [01;31m[K^~~~~~~~~[m[K
+[0.052s] [01m[K/workspace/ros2_ws/src/phantomx_package/src/phantomx_node.cpp:15:13:[m[K [01;35m[Kwarning: [m[Kcharacter constant too long for its type
+[0.052s]    15 |             [01;35m[K'/joint_command'[m[K,
+[0.052s]       |             [01;35m[K^~~~~~~~~~~~~~~~[m[K
+[0.052s] [01m[K/workspace/ros2_ws/src/phantomx_package/src/phantomx_node.cpp:19:11:[m[K [01;31m[Kerror: [m[Kinvalid preprocessing directive #Timer
+[0.052s]    19 |         # [01;31m[KTimer[m[K für regelmäßiges Publishing (50Hz = 0.02s)
+[0.053s]       |           [01;31m[K^~~~~[m[K
+[0.053s] [01m[K/workspace/ros2_ws/src/phantomx_package/src/phantomx_node.cpp:22:11:[m[K [01;31m[Kerror: [m[Kinvalid preprocessing directive #Hexapod
+[0.053s]    22 |         # [01;31m[KHexapod[m[K hat typischerweise 18 Gelenke (6 Beine x 3 Gelenke)
+[0.053s]       |           [01;31m[K^~~~~~~[m[K
+[0.054s] [01m[K/workspace/ros2_ws/src/phantomx_package/src/phantomx_node.cpp:23:11:[m[K [01;31m[Kerror: [m[Kinvalid preprocessing directive #Passe
+[0.054s]    23 |         # [01;31m[KPasse[m[K die Namen an deine URDF/Robot-Konfiguration an
+[0.054s]       |           [01;31m[K^~~~~[m[K
+[0.054s] [01m[K/workspace/ros2_ws/src/phantomx_package/src/phantomx_node.cpp:25:15:[m[K [01;31m[Kerror: [m[Kinvalid preprocessing directive #Bein
+[0.054s]    25 |             # [01;31m[KBein[m[K 1
+[0.054s]       |               [01;31m[K^~~~[m[K
+[0.054s] [01m[K/workspace/ros2_ws/src/phantomx_package/src/phantomx_node.cpp:26:13:[m[K [01;35m[Kwarning: [m[Kcharacter constant too long for its type
+[0.054s]    26 |             [01;35m[K'leg1_coxa_joint'[m[K, 'leg1_femur_joint', 'leg1_tibia_joint',
+[0.054s]       |             [01;35m[K^~~~~~~~~~~~~~~~~[m[K
+[0.054s] [01m[K/workspace/ros2_ws/src/phantomx_package/src/phantomx_node.cpp:26:32:[m[K [01;35m[Kwarning: [m[Kcharacter constant too long for its type
+[0.054s]    26 |             'leg1_coxa_joint', [01;35m[K'leg1_femur_joint'[m[K, 'leg1_tibia_joint',
+[0.054s]       |                                [01;35m[K^~~~~~~~~~~~~~~~~~[m[K
+[0.054s] [01m[K/workspace/ros2_ws/src/phantomx_package/src/phantomx_node.cpp:26:52:[m[K [01;35m[Kwarning: [m[Kcharacter constant too long for its type
+[0.054s]    26 |             'leg1_coxa_joint', 'leg1_femur_joint', [01;35m[K'leg1_tibia_joint'[m[K,
+[0.054s]       |                                                    [01;35m[K^~~~~~~~~~~~~~~~~~[m[K
+[0.054s] [01m[K/workspace/ros2_ws/src/phantomx_package/src/phantomx_node.cpp:27:15:[m[K [01;31m[Kerror: [m[Kinvalid preprocessing directive #Bein
+[0.054s]    27 |             # [01;31m[KBein[m[K 2
+[0.054s]       |               [01;31m[K^~~~[m[K
+[0.054s] [01m[K/workspace/ros2_ws/src/phantomx_package/src/phantomx_node.cpp:28:13:[m[K [01;35m[Kwarning: [m[Kcharacter constant too long for its type
+[0.054s]    28 |             [01;35m[K'leg2_coxa_joint'[m[K, 'leg2_femur_joint', 'leg2_tibia_joint',
+[0.054s]       |             [01;35m[K^~~~~~~~~~~~~~~~~[m[K
+[0.054s] [01m[K/workspace/ros2_ws/src/phantomx_package/src/phantomx_node.cpp:28:32:[m[K [01;35m[Kwarning: [m[Kcharacter constant too long for its type
+[0.054s]    28 |             'leg2_coxa_joint', [01;35m[K'leg2_femur_joint'[m[K, 'leg2_tibia_joint',
+[0.054s]       |                                [01;35m[K^~~~~~~~~~~~~~~~~~[m[K
+[0.054s] [01m[K/workspace/ros2_ws/src/phantomx_package/src/phantomx_node.cpp:28:52:[m[K [01;35m[Kwarning: [m[Kcharacter constant too long for its type
+[0.055s]    28 |             'leg2_coxa_joint', 'leg2_femur_joint', [01;35m[K'leg2_tibia_joint'[m[K,
+[0.055s]       |                                                    [01;35m[K^~~~~~~~~~~~~~~~~~[m[K
+[0.055s] [01m[K/workspace/ros2_ws/src/phantomx_package/src/phantomx_node.cpp:29:15:[m[K [01;31m[Kerror: [m[Kinvalid preprocessing directive #Bein
+[0.055s]    29 |             # [01;31m[KBein[m[K 3
+[0.055s]       |               [01;31m[K^~~~[m[K
+[0.055s] [01m[K/workspace/ros2_ws/src/phantomx_package/src/phantomx_node.cpp:30:13:[m[K [01;35m[Kwarning: [m[Kcharacter constant too long for its type
+[0.055s]    30 |             [01;35m[K'leg3_coxa_joint'[m[K, 'leg3_femur_joint', 'leg3_tibia_joint',
+[0.055s]       |             [01;35m[K^~~~~~~~~~~~~~~~~[m[K
+[0.055s] [01m[K/workspace/ros2_ws/src/phantomx_package/src/phantomx_node.cpp:30:32:[m[K [01;35m[Kwarning: [m[Kcharacter constant too long for its type
+[0.055s]    30 |             'leg3_coxa_joint', [01;35m[K'leg3_femur_joint'[m[K, 'leg3_tibia_joint',
+[0.055s]       |                                [01;35m[K^~~~~~~~~~~~~~~~~~[m[K
+[0.055s] [01m[K/workspace/ros2_ws/src/phantomx_package/src/phantomx_node.cpp:30:52:[m[K [01;35m[Kwarning: [m[Kcharacter constant too long for its type
+[0.055s]    30 |             'leg3_coxa_joint', 'leg3_femur_joint', [01;35m[K'leg3_tibia_joint'[m[K,
+[0.055s]       |                                                    [01;35m[K^~~~~~~~~~~~~~~~~~[m[K
+[0.055s] [01m[K/workspace/ros2_ws/src/phantomx_package/src/phantomx_node.cpp:31:15:[m[K [01;31m[Kerror: [m[Kinvalid preprocessing directive #Bein
+[0.055s]    31 |             # [01;31m[KBein[m[K 4
+[0.055s]       |               [01;31m[K^~~~[m[K
+[0.055s] [01m[K/workspace/ros2_ws/src/phantomx_package/src/phantomx_node.cpp:32:13:[m[K [01;35m[Kwarning: [m[Kcharacter constant too long for its type
+[0.055s]    32 |             [01;35m[K'leg4_coxa_joint'[m[K, 'leg4_femur_joint', 'leg4_tibia_joint',
+[0.055s]       |             [01;35m[K^~~~~~~~~~~~~~~~~[m[K
+[0.055s] [01m[K/workspace/ros2_ws/src/phantomx_package/src/phantomx_node.cpp:32:32:[m[K [01;35m[Kwarning: [m[Kcharacter constant too long for its type
+[0.055s]    32 |             'leg4_coxa_joint', [01;35m[K'leg4_femur_joint'[m[K, 'leg4_tibia_joint',
+[0.055s]       |                                [01;35m[K^~~~~~~~~~~~~~~~~~[m[K
+[0.055s] [01m[K/workspace/ros2_ws/src/phantomx_package/src/phantomx_node.cpp:32:52:[m[K [01;35m[Kwarning: [m[Kcharacter constant too long for its type
+[0.055s]    32 |             'leg4_coxa_joint', 'leg4_femur_joint', [01;35m[K'leg4_tibia_joint'[m[K,
+[0.056s]       |                                                    [01;35m[K^~~~~~~~~~~~~~~~~~[m[K
+[0.056s] [01m[K/workspace/ros2_ws/src/phantomx_package/src/phantomx_node.cpp:33:15:[m[K [01;31m[Kerror: [m[Kinvalid preprocessing directive #Bein
+[0.056s]    33 |             # [01;31m[KBein[m[K 5
+[0.056s]       |               [01;31m[K^~~~[m[K
+[0.056s] [01m[K/workspace/ros2_ws/src/phantomx_package/src/phantomx_node.cpp:34:13:[m[K [01;35m[Kwarning: [m[Kcharacter constant too long for its type
+[0.056s]    34 |             [01;35m[K'leg5_coxa_joint'[m[K, 'leg5_femur_joint', 'leg5_tibia_joint',
+[0.056s]       |             [01;35m[K^~~~~~~~~~~~~~~~~[m[K
+[0.056s] [01m[K/workspace/ros2_ws/src/phantomx_package/src/phantomx_node.cpp:34:32:[m[K [01;35m[Kwarning: [m[Kcharacter constant too long for its type
+[0.056s]    34 |             'leg5_coxa_joint', [01;35m[K'leg5_femur_joint'[m[K, 'leg5_tibia_joint',
+[0.056s]       |                                [01;35m[K^~~~~~~~~~~~~~~~~~[m[K
+[0.056s] [01m[K/workspace/ros2_ws/src/phantomx_package/src/phantomx_node.cpp:34:52:[m[K [01;35m[Kwarning: [m[Kcharacter constant too long for its type
+[0.056s]    34 |             'leg5_coxa_joint', 'leg5_femur_joint', [01;35m[K'leg5_tibia_joint'[m[K,
+[0.056s]       |                                                    [01;35m[K^~~~~~~~~~~~~~~~~~[m[K
+[0.056s] [01m[K/workspace/ros2_ws/src/phantomx_package/src/phantomx_node.cpp:35:15:[m[K [01;31m[Kerror: [m[Kinvalid preprocessing directive #Bein
+[0.056s]    35 |             # [01;31m[KBein[m[K 6
+[0.056s]       |               [01;31m[K^~~~[m[K
+[0.056s] [01m[K/workspace/ros2_ws/src/phantomx_package/src/phantomx_node.cpp:36:13:[m[K [01;35m[Kwarning: [m[Kcharacter constant too long for its type
+[0.056s]    36 |             [01;35m[K'leg6_coxa_joint'[m[K, 'leg6_femur_joint', 'leg6_tibia_joint',
+[0.056s]       |             [01;35m[K^~~~~~~~~~~~~~~~~[m[K
+[0.056s] [01m[K/workspace/ros2_ws/src/phantomx_package/src/phantomx_node.cpp:36:32:[m[K [01;35m[Kwarning: [m[Kcharacter constant too long for its type
+[0.056s]    36 |             'leg6_coxa_joint', [01;35m[K'leg6_femur_joint'[m[K, 'leg6_tibia_joint',
+[0.056s]       |                                [01;35m[K^~~~~~~~~~~~~~~~~~[m[K
+[0.056s] [01m[K/workspace/ros2_ws/src/phantomx_package/src/phantomx_node.cpp:36:52:[m[K [01;35m[Kwarning: [m[Kcharacter constant too long for its type
+[0.056s]    36 |             'leg6_coxa_joint', 'leg6_femur_joint', [01;35m[K'leg6_tibia_joint'[m[K,
+[0.056s]       |                                                    [01;35m[K^~~~~~~~~~~~~~~~~~[m[K
+[0.056s] [01m[K/workspace/ros2_ws/src/phantomx_package/src/phantomx_node.cpp:42:32:[m[K [01;35m[Kwarning: [m[Kcharacter constant too long for its type
+[0.056s]    42 |         self.get_logger().info([01;35m[K'PhantomX ROS2 Publisher Node Started!'[m[K)
+[0.056s]       |                                [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.056s] [01m[K/workspace/ros2_ws/src/phantomx_package/src/phantomx_node.cpp:43:33:[m[K [01;35m[Kwarning: [m[Kcharacter constant too long for its type
+[0.056s]    43 |         self.get_logger().info(f[01;35m[K'Publishing to /joint_command with {self.num_joints} joints'[m[K)
+[0.056s]       |                                 [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.056s] [01m[K/workspace/ros2_ws/src/phantomx_package/src/phantomx_node.cpp:48:11:[m[K [01;31m[Kerror: [m[Kinvalid preprocessing directive #Timestamp
+[0.056s]    48 |         # [01;31m[KTimestamp[m[K setzen
+[0.056s]       |           [01;31m[K^~~~~~~~~[m[K
+[0.056s] [01m[K/workspace/ros2_ws/src/phantomx_package/src/phantomx_node.cpp:50:31:[m[K [01;31m[Kerror: [m[Kempty character constant
+[0.056s]    50 |         msg.header.frame_id = [01;31m[K''[m[K
+[0.057s]       |                               [01;31m[K^~[m[K
+[0.057s] [01m[K/workspace/ros2_ws/src/phantomx_package/src/phantomx_node.cpp:52:11:[m[K [01;31m[Kerror: [m[Kinvalid preprocessing directive #Joint
+[0.057s]    52 |         # [01;31m[KJoint[m[K Namen
+[0.057s]       |           [01;31m[K^~~~~[m[K
+[0.057s] [01m[K/workspace/ros2_ws/src/phantomx_package/src/phantomx_node.cpp:55:11:[m[K [01;31m[Kerror: [m[Kinvalid preprocessing directive #Beispiel
+[0.057s]    55 |         # [01;31m[KBeispiel[m[K: Sinuswellen-Bewegung für Demo
+[0.057s]       |           [01;31m[K^~~~~~~~[m[K
+[0.057s] [01m[K/workspace/ros2_ws/src/phantomx_package/src/phantomx_node.cpp:56:11:[m[K [01;31m[Kerror: [m[Kinvalid preprocessing directive #In
+[0.057s]    56 |         # [01;31m[KIn[m[K der Praxis würdest du hier echte Trajektorien berechnen
+[0.057s]       |           [01;31m[K^~[m[K
+[0.057s] [01m[K/workspace/ros2_ws/src/phantomx_package/src/phantomx_node.cpp:62:15:[m[K [01;31m[Kerror: [m[Kinvalid preprocessing directive #Verschiedene
+[0.057s]    62 |             # [01;31m[KVerschiedene[m[K Frequenzen für verschiedene Gelenke
+[0.057s]       |               [01;31m[K^~~~~~~~~~~~[m[K
+[0.057s] [01m[K/workspace/ros2_ws/src/phantomx_package/src/phantomx_node.cpp:64:30:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K#[m[K’ in program
+[0.057s]    64 |             amplitude = 0.3  [01;31m[K#[m[K Radians
+[0.057s]       |                              [01;31m[K^[m[K
+[0.057s] [01m[K/workspace/ros2_ws/src/phantomx_package/src/phantomx_node.cpp:66:15:[m[K [01;31m[Kerror: [m[Kinvalid preprocessing directive #Position
+[0.057s]    66 |             # [01;31m[KPosition[m[K als Sinuswelle
+[0.057s]       |               [01;31m[K^~~~~~~~[m[K
+[0.057s] [01m[K/workspace/ros2_ws/src/phantomx_package/src/phantomx_node.cpp:70:15:[m[K [01;31m[Kerror: [m[Kinvalid preprocessing directive #Velocity
+[0.057s]    70 |             # [01;31m[KVelocity[m[K (Ableitung der Position)
+[0.057s]       |               [01;31m[K^~~~~~~~[m[K
+[0.057s] [01m[K/workspace/ros2_ws/src/phantomx_package/src/phantomx_node.cpp:74:15:[m[K [01;31m[Kerror: [m[Kinvalid preprocessing directive #Effort
+[0.057s]    74 |             # [01;31m[KEffort[m[K (kannst du auf 0 setzen wenn nicht benötigt)
+[0.057s]       |               [01;31m[K^~~~~~[m[K
+[0.057s] [01m[K/workspace/ros2_ws/src/phantomx_package/src/phantomx_node.cpp:81:11:[m[K [01;31m[Kerror: [m[Kinvalid preprocessing directive #Publishen
+[0.057s]    81 |         # [01;31m[KPublishen[m[K
+[0.057s]       |           [01;31m[K^~~~~~~~~[m[K
+[0.057s] [01m[K/workspace/ros2_ws/src/phantomx_package/src/phantomx_node.cpp:84:11:[m[K [01;31m[Kerror: [m[Kinvalid preprocessing directive #Zeit
+[0.057s]    84 |         # [01;31m[KZeit[m[K inkrementieren
+[0.057s]       |           [01;31m[K^~~~[m[K
+[0.057s] [01m[K/workspace/ros2_ws/src/phantomx_package/src/phantomx_node.cpp:99:16:[m[K [01;35m[Kwarning: [m[Kcharacter constant too long for its type
+[0.058s]    99 | if __name__ == [01;35m[K'__main__'[m[K:
+[0.058s]       |                [01;35m[K^~~~~~~~~~[m[K
+[0.058s] [01m[K/workspace/ros2_ws/src/phantomx_package/src/phantomx_node.cpp:2:1:[m[K [01;31m[Kerror: [m[K‘[01m[Kimport[m[K’ does not name a type
+[0.058s]     2 | [01;31m[Kimport[m[K rclpy
+[0.058s]       | [01;31m[K^~~~~~[m[K
+[0.058s] [01m[K/workspace/ros2_ws/src/phantomx_package/src/phantomx_node.cpp:2:1:[m[K [01;36m[Knote: [m[KC++20 ‘[01m[Kimport[m[K’ only available with ‘[01m[K-fmodules-ts[m[K’
+[0.058s] gmake[2]: *** [CMakeFiles/phantomx_node.dir/build.make:76: CMakeFiles/phantomx_node.dir/src/phantomx_node.cpp.o] Error 1
+[0.058s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/phantomx_node.dir/all] Error 2
+[0.058s] gmake: *** [Makefile:146: all] Error 2
+[0.058s] Invoked command in '/workspace/ros2_ws/build/phantomx_package' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /workspace/ros2_ws/build/phantomx_package -- -j16 -l16

@@ -1,0 +1,4 @@
+Invoking command in '/workspace/ros2_ws/build/phantomx_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /workspace/ros2_ws/build/phantomx_package -- -j16 -l16
+Invoked command in '/workspace/ros2_ws/build/phantomx_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /workspace/ros2_ws/build/phantomx_package -- -j16 -l16
+Invoking command in '/workspace/ros2_ws/build/phantomx_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /workspace/ros2_ws/build/phantomx_package
+Invoked command in '/workspace/ros2_ws/build/phantomx_package' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /workspace/ros2_ws/build/phantomx_package

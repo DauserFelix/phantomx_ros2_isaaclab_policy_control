@@ -1,0 +1,24 @@
+[0.007s] Invoking command in '/workspace/ros2_ws/build/phantomx_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /workspace/ros2_ws/build/phantomx_package -- -j16 -l16
+[0.026s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.153s] -- Found rclcpp: 28.1.18 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.170s] -- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.175s] -- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.182s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.190s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.228s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.228s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.269s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.309s] -- Found std_msgs: 5.3.7 (/opt/ros/jazzy/share/std_msgs/cmake)
+[0.317s] -- Found sensor_msgs: 5.3.7 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[0.407s] [31mCMake Error at /opt/ros/jazzy/share/ament_cmake_python/cmake/ament_python_install_package.cmake:66 (message):
+[0.407s]   ament_python_install_package() the Python package folder
+[0.407s]   '/workspace/ros2_ws/src/phantomx_package/phantomx_package' doesn't contain
+[0.407s]   an '__init__.py' file
+[0.407s] Call Stack (most recent call first):
+[0.407s]   /opt/ros/jazzy/share/ament_cmake_python/cmake/ament_python_install_package.cmake:39 (_ament_cmake_python_install_package)
+[0.407s]   CMakeLists.txt:15 (ament_python_install_package)
+[0.407s] 
+[0.407s] [0m
+[0.407s] -- Configuring incomplete, errors occurred!
+[0.413s] gmake: *** [Makefile:240: cmake_check_build_system] Error 1
+[0.414s] Invoked command in '/workspace/ros2_ws/build/phantomx_package' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /workspace/ros2_ws/build/phantomx_package -- -j16 -l16

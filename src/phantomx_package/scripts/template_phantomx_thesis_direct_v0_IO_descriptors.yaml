@@ -1,0 +1,54 @@
+actions:
+- description: Joint position targets (scaled deviation from default + default_joint_pos)
+  name: joint_position_targets
+  scale: 0.5
+  size: 18
+articulations:
+  robot:
+    joint_names:
+    - j_c1_lf
+    - j_c1_lm
+    - j_c1_lr
+    - j_c1_rf
+    - j_c1_rm
+    - j_c1_rr
+    - j_thigh_lf
+    - j_thigh_lm
+    - j_thigh_lr
+    - j_thigh_rf
+    - j_thigh_rm
+    - j_thigh_rr
+    - j_tibia_lf
+    - j_tibia_lm
+    - j_tibia_lr
+    - j_tibia_rf
+    - j_tibia_rm
+    - j_tibia_rr
+    num_joints: 18
+observations:
+  policy:
+  - description: Root linear velocity in body frame (x, y, z)
+    name: root_lin_vel_b
+    size: 3
+  - description: Root angular velocity in body frame (roll, pitch, yaw)
+    name: root_ang_vel_b
+    size: 3
+  - description: Projected gravity vector in body frame
+    name: projected_gravity_b
+    size: 3
+  - description: Velocity commands (vx, vy, yaw_rate)
+    name: commands
+    size: 3
+  - description: Joint positions relative to default pose
+    name: joint_pos_rel
+    size: 18
+  - description: Joint velocities
+    name: joint_vel
+    size: 18
+  - description: Previous actions
+    name: actions
+    size: 18
+scene:
+  num_envs: 1
+  target_base_height: 0.1
+  terrain: TerrainImporter

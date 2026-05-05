@@ -1,0 +1,5 @@
+[0.007s] Invoking command in '/workspace/ros2_ws/build/phantomx_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /workspace/ros2_ws/build/phantomx_package -- -j16 -l16
+[0.039s] gmake[2]: *** No rule to make target 'CMakeFiles/phantomx_node.dir/build'.  Stop.
+[0.039s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/phantomx_node.dir/all] Error 2
+[0.039s] gmake: *** [Makefile:146: all] Error 2
+[0.041s] Invoked command in '/workspace/ros2_ws/build/phantomx_package' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /workspace/ros2_ws/build/phantomx_package -- -j16 -l16

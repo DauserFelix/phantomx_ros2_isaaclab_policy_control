@@ -1,0 +1,35 @@
+Built target ament_cmake_python_copy_phantomx_package
+running egg_info
+writing phantomx_package.egg-info/PKG-INFO
+writing dependency_links to phantomx_package.egg-info/dependency_links.txt
+writing top-level names to phantomx_package.egg-info/top_level.txt
+reading manifest file 'phantomx_package.egg-info/SOURCES.txt'
+writing manifest file 'phantomx_package.egg-info/SOURCES.txt'
+Built target ament_cmake_python_build_phantomx_package_egg
+-- Install configuration: ""
+-- Up-to-date: /workspace/ros2_ws/install/phantomx_package/share/phantomx_package/environment/pythonpath.sh
+-- Up-to-date: /workspace/ros2_ws/install/phantomx_package/share/phantomx_package/environment/pythonpath.dsv
+-- Up-to-date: /workspace/ros2_ws/install/phantomx_package/lib/python3.12/site-packages/phantomx_package-0.0.0-py3.12.egg-info
+-- Installing: /workspace/ros2_ws/install/phantomx_package/lib/python3.12/site-packages/phantomx_package-0.0.0-py3.12.egg-info/SOURCES.txt
+-- Installing: /workspace/ros2_ws/install/phantomx_package/lib/python3.12/site-packages/phantomx_package-0.0.0-py3.12.egg-info/top_level.txt
+-- Installing: /workspace/ros2_ws/install/phantomx_package/lib/python3.12/site-packages/phantomx_package-0.0.0-py3.12.egg-info/PKG-INFO
+-- Installing: /workspace/ros2_ws/install/phantomx_package/lib/python3.12/site-packages/phantomx_package-0.0.0-py3.12.egg-info/dependency_links.txt
+-- Up-to-date: /workspace/ros2_ws/install/phantomx_package/lib/python3.12/site-packages/phantomx_package
+-- Up-to-date: /workspace/ros2_ws/install/phantomx_package/lib/python3.12/site-packages/phantomx_package/__init__.py
+Listing '/workspace/ros2_ws/install/phantomx_package/lib/python3.12/site-packages/phantomx_package'...
+-- Installing: /workspace/ros2_ws/install/phantomx_package/lib/phantomx_package/phantomx_node.py
+-- Up-to-date: /workspace/ros2_ws/install/phantomx_package/share/ament_index/resource_index/package_run_dependencies/phantomx_package
+-- Up-to-date: /workspace/ros2_ws/install/phantomx_package/share/ament_index/resource_index/parent_prefix_path/phantomx_package
+-- Up-to-date: /workspace/ros2_ws/install/phantomx_package/share/phantomx_package/environment/ament_prefix_path.sh
+-- Up-to-date: /workspace/ros2_ws/install/phantomx_package/share/phantomx_package/environment/ament_prefix_path.dsv
+-- Up-to-date: /workspace/ros2_ws/install/phantomx_package/share/phantomx_package/environment/path.sh
+-- Up-to-date: /workspace/ros2_ws/install/phantomx_package/share/phantomx_package/environment/path.dsv
+-- Up-to-date: /workspace/ros2_ws/install/phantomx_package/share/phantomx_package/local_setup.bash
+-- Up-to-date: /workspace/ros2_ws/install/phantomx_package/share/phantomx_package/local_setup.sh
+-- Up-to-date: /workspace/ros2_ws/install/phantomx_package/share/phantomx_package/local_setup.zsh
+-- Up-to-date: /workspace/ros2_ws/install/phantomx_package/share/phantomx_package/local_setup.dsv
+-- Installing: /workspace/ros2_ws/install/phantomx_package/share/phantomx_package/package.dsv
+-- Up-to-date: /workspace/ros2_ws/install/phantomx_package/share/ament_index/resource_index/packages/phantomx_package
+-- Up-to-date: /workspace/ros2_ws/install/phantomx_package/share/phantomx_package/cmake/phantomx_packageConfig.cmake
+-- Up-to-date: /workspace/ros2_ws/install/phantomx_package/share/phantomx_package/cmake/phantomx_packageConfig-version.cmake
+-- Up-to-date: /workspace/ros2_ws/install/phantomx_package/share/phantomx_package/package.xml

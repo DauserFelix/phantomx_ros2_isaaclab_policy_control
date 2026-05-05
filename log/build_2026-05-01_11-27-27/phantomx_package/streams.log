@@ -1,0 +1,39 @@
+[0.007s] Invoking command in '/workspace/ros2_ws/build/phantomx_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /workspace/ros2_ws/build/phantomx_package -- -j16 -l16
+[0.048s] Built target ament_cmake_python_copy_phantomx_package
+[0.159s] running egg_info
+[0.167s] writing phantomx_package.egg-info/PKG-INFO
+[0.167s] writing dependency_links to phantomx_package.egg-info/dependency_links.txt
+[0.168s] writing top-level names to phantomx_package.egg-info/top_level.txt
+[0.192s] reading manifest file 'phantomx_package.egg-info/SOURCES.txt'
+[0.193s] writing manifest file 'phantomx_package.egg-info/SOURCES.txt'
+[0.210s] Built target ament_cmake_python_build_phantomx_package_egg
+[0.217s] Invoked command in '/workspace/ros2_ws/build/phantomx_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /workspace/ros2_ws/build/phantomx_package -- -j16 -l16
+[0.224s] Invoking command in '/workspace/ros2_ws/build/phantomx_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /workspace/ros2_ws/build/phantomx_package
+[0.230s] -- Install configuration: ""
+[0.230s] -- Up-to-date: /workspace/ros2_ws/install/phantomx_package/share/phantomx_package/environment/pythonpath.sh
+[0.230s] -- Up-to-date: /workspace/ros2_ws/install/phantomx_package/share/phantomx_package/environment/pythonpath.dsv
+[0.230s] -- Up-to-date: /workspace/ros2_ws/install/phantomx_package/lib/python3.12/site-packages/phantomx_package-0.0.0-py3.12.egg-info
+[0.230s] -- Installing: /workspace/ros2_ws/install/phantomx_package/lib/python3.12/site-packages/phantomx_package-0.0.0-py3.12.egg-info/SOURCES.txt
+[0.230s] -- Installing: /workspace/ros2_ws/install/phantomx_package/lib/python3.12/site-packages/phantomx_package-0.0.0-py3.12.egg-info/top_level.txt
+[0.230s] -- Installing: /workspace/ros2_ws/install/phantomx_package/lib/python3.12/site-packages/phantomx_package-0.0.0-py3.12.egg-info/PKG-INFO
+[0.230s] -- Installing: /workspace/ros2_ws/install/phantomx_package/lib/python3.12/site-packages/phantomx_package-0.0.0-py3.12.egg-info/dependency_links.txt
+[0.230s] -- Up-to-date: /workspace/ros2_ws/install/phantomx_package/lib/python3.12/site-packages/phantomx_package
+[0.230s] -- Up-to-date: /workspace/ros2_ws/install/phantomx_package/lib/python3.12/site-packages/phantomx_package/__init__.py
+[0.250s] Listing '/workspace/ros2_ws/install/phantomx_package/lib/python3.12/site-packages/phantomx_package'...
+[0.253s] -- Installing: /workspace/ros2_ws/install/phantomx_package/lib/phantomx_package/phantomx_node.py
+[0.253s] -- Up-to-date: /workspace/ros2_ws/install/phantomx_package/share/ament_index/resource_index/package_run_dependencies/phantomx_package
+[0.253s] -- Up-to-date: /workspace/ros2_ws/install/phantomx_package/share/ament_index/resource_index/parent_prefix_path/phantomx_package
+[0.254s] -- Up-to-date: /workspace/ros2_ws/install/phantomx_package/share/phantomx_package/environment/ament_prefix_path.sh
+[0.254s] -- Up-to-date: /workspace/ros2_ws/install/phantomx_package/share/phantomx_package/environment/ament_prefix_path.dsv
+[0.254s] -- Up-to-date: /workspace/ros2_ws/install/phantomx_package/share/phantomx_package/environment/path.sh
+[0.254s] -- Up-to-date: /workspace/ros2_ws/install/phantomx_package/share/phantomx_package/environment/path.dsv
+[0.254s] -- Up-to-date: /workspace/ros2_ws/install/phantomx_package/share/phantomx_package/local_setup.bash
+[0.254s] -- Up-to-date: /workspace/ros2_ws/install/phantomx_package/share/phantomx_package/local_setup.sh
+[0.254s] -- Up-to-date: /workspace/ros2_ws/install/phantomx_package/share/phantomx_package/local_setup.zsh
+[0.254s] -- Up-to-date: /workspace/ros2_ws/install/phantomx_package/share/phantomx_package/local_setup.dsv
+[0.254s] -- Installing: /workspace/ros2_ws/install/phantomx_package/share/phantomx_package/package.dsv
+[0.254s] -- Up-to-date: /workspace/ros2_ws/install/phantomx_package/share/ament_index/resource_index/packages/phantomx_package
+[0.254s] -- Up-to-date: /workspace/ros2_ws/install/phantomx_package/share/phantomx_package/cmake/phantomx_packageConfig.cmake
+[0.254s] -- Up-to-date: /workspace/ros2_ws/install/phantomx_package/share/phantomx_package/cmake/phantomx_packageConfig-version.cmake
+[0.254s] -- Up-to-date: /workspace/ros2_ws/install/phantomx_package/share/phantomx_package/package.xml
+[0.256s] Invoked command in '/workspace/ros2_ws/build/phantomx_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /workspace/ros2_ws/build/phantomx_package

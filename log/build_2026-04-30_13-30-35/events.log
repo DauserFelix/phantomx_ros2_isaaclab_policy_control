@@ -1,0 +1,155 @@
+[0.000000] (-) TimerEvent: {}
+[0.000148] (phantomx_package) JobQueued: {'identifier': 'phantomx_package', 'dependencies': OrderedDict()}
+[0.000356] (phantomx_package) JobStarted: {'identifier': 'phantomx_package'}
+[0.005557] (phantomx_package) JobProgress: {'identifier': 'phantomx_package', 'progress': 'cmake'}
+[0.005842] (phantomx_package) JobProgress: {'identifier': 'phantomx_package', 'progress': 'build'}
+[0.006125] (phantomx_package) Command: {'cmd': ['/usr/bin/cmake', '--build', '/workspace/ros2_ws/build/phantomx_package', '--', '-j16', '-l16'], 'cwd': '/workspace/ros2_ws/build/phantomx_package', 'env': OrderedDict({'HOSTNAME': 'chp-MS-7E80', 'ISAACSIM_PATH': '/workspace/isaaclab/_isaac_sim', 'DOCKER_ISAACLAB_PATH': '/workspace/isaaclab', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/root', 'OLDPWD': '/workspace/ros2_ws/src', 'ISAACSIM_BASE_IMAGE': 'nvcr.io/nvidia/isaac-sim', 'MIN_DRIVER_VERSION': '570.169', 'ROS_PYTHON_VERSION': '3', 'COLCON_PREFIX_PATH': '/workspace/ros2_ws/install', 'ROS_DISTRO': 'jazzy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'NVIDIA_DRIVER_CAPABILITIES': 'all', 'ISAACLAB_PATH': '/workspace/isaaclab', 'TERM': 'xterm-256color', 'DOCKER_NAME_SUFFIX': '', 'ISAACSIM_VERSION': '5.1.0', 'QT_X11_NO_MITSHM': '1', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'ROS2_APT_PACKAGE': 'desktop', 'DOCKER_ISAACSIM_ROOT_PATH': '/isaac-sim', 'VK_DRIVER_FILES': '/etc/vulkan/icd.d/nvidia_icd.json', 'DISPLAY': ':2', 'LANG': 'C.UTF-8', 'XAUTHORITY': '/tmp/tmp.IkEiHKdFEF/tmp.v2EusxPcMq.xauth', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/workspace/ros2_ws/install/phantomx_package:/opt/ros/jazzy', 'OMNI_KIT_ALLOW_ROOT': '1', 'DEBIAN_FRONTEND': 'noninteractive', 'ACCEPT_EULA': 'Y', 'OMNI_SERVER': 'https://omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/5.1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'DOCKER_USER_HOME': '/root', 'PWD': '/workspace/ros2_ws/build/phantomx_package', 'ISAACSIM_ROOT_PATH': '/isaac-sim', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'NVIDIA_VISIBLE_DEVICES': 'all', 'TZ': 'UTC', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/workspace/ros2_ws/install/phantomx_package:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.046149] (phantomx_package) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/phantomx_node.dir/src/phantomx_node.cpp.o\x1b[0m\n'}
+[0.052050] (phantomx_package) StderrLine: {'line': b'\x1b[01m\x1b[K/workspace/ros2_ws/src/phantomx_package/src/phantomx_node.cpp:1:2:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid preprocessing directive #!\n'}
+[0.052164] (phantomx_package) StderrLine: {'line': b'    1 | #\x1b[01;31m\x1b[K!\x1b[m\x1b[K/usr/bin/env python3\n'}
+[0.052201] (phantomx_package) StderrLine: {'line': b'      |  \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[0.052353] (phantomx_package) StderrLine: {'line': b'\x1b[01m\x1b[K/workspace/ros2_ws/src/phantomx_package/src/phantomx_node.cpp:10:26:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcharacter constant too long for its type\n'}
+[0.052399] (phantomx_package) StderrLine: {'line': b"   10 |         super().__init__(\x1b[01;35m\x1b[K'phantomx_node'\x1b[m\x1b[K)\n"}
+[0.052432] (phantomx_package) StderrLine: {'line': b'      |                          \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.052464] (phantomx_package) StderrLine: {'line': b'\x1b[01m\x1b[K/workspace/ros2_ws/src/phantomx_package/src/phantomx_node.cpp:12:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid preprocessing directive #Publisher\n'}
+[0.052494] (phantomx_package) StderrLine: {'line': b'   12 |         # \x1b[01;31m\x1b[KPublisher\x1b[m\x1b[K erstellen\n'}
+[0.052524] (phantomx_package) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[0.052552] (phantomx_package) StderrLine: {'line': b'\x1b[01m\x1b[K/workspace/ros2_ws/src/phantomx_package/src/phantomx_node.cpp:15:13:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcharacter constant too long for its type\n'}
+[0.052582] (phantomx_package) StderrLine: {'line': b"   15 |             \x1b[01;35m\x1b[K'/joint_command'\x1b[m\x1b[K,\n"}
+[0.052610] (phantomx_package) StderrLine: {'line': b'      |             \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.052709] (phantomx_package) StderrLine: {'line': b'\x1b[01m\x1b[K/workspace/ros2_ws/src/phantomx_package/src/phantomx_node.cpp:19:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid preprocessing directive #Timer\n'}
+[0.052766] (phantomx_package) StderrLine: {'line': b'   19 |         # \x1b[01;31m\x1b[KTimer\x1b[m\x1b[K f\xc3\xbcr regelm\xc3\xa4\xc3\x9figes Publishing (50Hz = 0.02s)\n'}
+[0.052826] (phantomx_package) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[0.053688] (phantomx_package) StderrLine: {'line': b'\x1b[01m\x1b[K/workspace/ros2_ws/src/phantomx_package/src/phantomx_node.cpp:22:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid preprocessing directive #Hexapod\n'}
+[0.053792] (phantomx_package) StderrLine: {'line': b'   22 |         # \x1b[01;31m\x1b[KHexapod\x1b[m\x1b[K hat typischerweise 18 Gelenke (6 Beine x 3 Gelenke)\n'}
+[0.053827] (phantomx_package) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[0.053859] (phantomx_package) StderrLine: {'line': b'\x1b[01m\x1b[K/workspace/ros2_ws/src/phantomx_package/src/phantomx_node.cpp:23:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid preprocessing directive #Passe\n'}
+[0.053890] (phantomx_package) StderrLine: {'line': b'   23 |         # \x1b[01;31m\x1b[KPasse\x1b[m\x1b[K die Namen an deine URDF/Robot-Konfiguration an\n'}
+[0.053920] (phantomx_package) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[0.053949] (phantomx_package) StderrLine: {'line': b'\x1b[01m\x1b[K/workspace/ros2_ws/src/phantomx_package/src/phantomx_node.cpp:25:15:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid preprocessing directive #Bein\n'}
+[0.053977] (phantomx_package) StderrLine: {'line': b'   25 |             # \x1b[01;31m\x1b[KBein\x1b[m\x1b[K 1\n'}
+[0.054016] (phantomx_package) StderrLine: {'line': b'      |               \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[0.054045] (phantomx_package) StderrLine: {'line': b'\x1b[01m\x1b[K/workspace/ros2_ws/src/phantomx_package/src/phantomx_node.cpp:26:13:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcharacter constant too long for its type\n'}
+[0.054074] (phantomx_package) StderrLine: {'line': b"   26 |             \x1b[01;35m\x1b[K'leg1_coxa_joint'\x1b[m\x1b[K, 'leg1_femur_joint', 'leg1_tibia_joint',\n"}
+[0.054102] (phantomx_package) StderrLine: {'line': b'      |             \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.054130] (phantomx_package) StderrLine: {'line': b'\x1b[01m\x1b[K/workspace/ros2_ws/src/phantomx_package/src/phantomx_node.cpp:26:32:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcharacter constant too long for its type\n'}
+[0.054157] (phantomx_package) StderrLine: {'line': b"   26 |             'leg1_coxa_joint', \x1b[01;35m\x1b[K'leg1_femur_joint'\x1b[m\x1b[K, 'leg1_tibia_joint',\n"}
+[0.054185] (phantomx_package) StderrLine: {'line': b'      |                                \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.054213] (phantomx_package) StderrLine: {'line': b'\x1b[01m\x1b[K/workspace/ros2_ws/src/phantomx_package/src/phantomx_node.cpp:26:52:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcharacter constant too long for its type\n'}
+[0.054240] (phantomx_package) StderrLine: {'line': b"   26 |             'leg1_coxa_joint', 'leg1_femur_joint', \x1b[01;35m\x1b[K'leg1_tibia_joint'\x1b[m\x1b[K,\n"}
+[0.054269] (phantomx_package) StderrLine: {'line': b'      |                                                    \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.054296] (phantomx_package) StderrLine: {'line': b'\x1b[01m\x1b[K/workspace/ros2_ws/src/phantomx_package/src/phantomx_node.cpp:27:15:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid preprocessing directive #Bein\n'}
+[0.054323] (phantomx_package) StderrLine: {'line': b'   27 |             # \x1b[01;31m\x1b[KBein\x1b[m\x1b[K 2\n'}
+[0.054350] (phantomx_package) StderrLine: {'line': b'      |               \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[0.054377] (phantomx_package) StderrLine: {'line': b'\x1b[01m\x1b[K/workspace/ros2_ws/src/phantomx_package/src/phantomx_node.cpp:28:13:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcharacter constant too long for its type\n'}
+[0.054404] (phantomx_package) StderrLine: {'line': b"   28 |             \x1b[01;35m\x1b[K'leg2_coxa_joint'\x1b[m\x1b[K, 'leg2_femur_joint', 'leg2_tibia_joint',\n"}
+[0.054663] (phantomx_package) StderrLine: {'line': b'      |             \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.054719] (phantomx_package) StderrLine: {'line': b'\x1b[01m\x1b[K/workspace/ros2_ws/src/phantomx_package/src/phantomx_node.cpp:28:32:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcharacter constant too long for its type\n'}
+[0.054754] (phantomx_package) StderrLine: {'line': b"   28 |             'leg2_coxa_joint', \x1b[01;35m\x1b[K'leg2_femur_joint'\x1b[m\x1b[K, 'leg2_tibia_joint',\n"}
+[0.054786] (phantomx_package) StderrLine: {'line': b'      |                                \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.054816] (phantomx_package) StderrLine: {'line': b'\x1b[01m\x1b[K/workspace/ros2_ws/src/phantomx_package/src/phantomx_node.cpp:28:52:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcharacter constant too long for its type\n'}
+[0.054850] (phantomx_package) StderrLine: {'line': b"   28 |             'leg2_coxa_joint', 'leg2_femur_joint', \x1b[01;35m\x1b[K'leg2_tibia_joint'\x1b[m\x1b[K,\n"}
+[0.054881] (phantomx_package) StderrLine: {'line': b'      |                                                    \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.054909] (phantomx_package) StderrLine: {'line': b'\x1b[01m\x1b[K/workspace/ros2_ws/src/phantomx_package/src/phantomx_node.cpp:29:15:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid preprocessing directive #Bein\n'}
+[0.054939] (phantomx_package) StderrLine: {'line': b'   29 |             # \x1b[01;31m\x1b[KBein\x1b[m\x1b[K 3\n'}
+[0.054970] (phantomx_package) StderrLine: {'line': b'      |               \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[0.054995] (phantomx_package) StderrLine: {'line': b'\x1b[01m\x1b[K/workspace/ros2_ws/src/phantomx_package/src/phantomx_node.cpp:30:13:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcharacter constant too long for its type\n'}
+[0.055024] (phantomx_package) StderrLine: {'line': b"   30 |             \x1b[01;35m\x1b[K'leg3_coxa_joint'\x1b[m\x1b[K, 'leg3_femur_joint', 'leg3_tibia_joint',\n"}
+[0.055050] (phantomx_package) StderrLine: {'line': b'      |             \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.055078] (phantomx_package) StderrLine: {'line': b'\x1b[01m\x1b[K/workspace/ros2_ws/src/phantomx_package/src/phantomx_node.cpp:30:32:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcharacter constant too long for its type\n'}
+[0.055106] (phantomx_package) StderrLine: {'line': b"   30 |             'leg3_coxa_joint', \x1b[01;35m\x1b[K'leg3_femur_joint'\x1b[m\x1b[K, 'leg3_tibia_joint',\n"}
+[0.055139] (phantomx_package) StderrLine: {'line': b'      |                                \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.055169] (phantomx_package) StderrLine: {'line': b'\x1b[01m\x1b[K/workspace/ros2_ws/src/phantomx_package/src/phantomx_node.cpp:30:52:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcharacter constant too long for its type\n'}
+[0.055215] (phantomx_package) StderrLine: {'line': b"   30 |             'leg3_coxa_joint', 'leg3_femur_joint', \x1b[01;35m\x1b[K'leg3_tibia_joint'\x1b[m\x1b[K,\n"}
+[0.055243] (phantomx_package) StderrLine: {'line': b'      |                                                    \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.055281] (phantomx_package) StderrLine: {'line': b'\x1b[01m\x1b[K/workspace/ros2_ws/src/phantomx_package/src/phantomx_node.cpp:31:15:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid preprocessing directive #Bein\n'}
+[0.055321] (phantomx_package) StderrLine: {'line': b'   31 |             # \x1b[01;31m\x1b[KBein\x1b[m\x1b[K 4\n'}
+[0.055365] (phantomx_package) StderrLine: {'line': b'      |               \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[0.055403] (phantomx_package) StderrLine: {'line': b'\x1b[01m\x1b[K/workspace/ros2_ws/src/phantomx_package/src/phantomx_node.cpp:32:13:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcharacter constant too long for its type\n'}
+[0.055432] (phantomx_package) StderrLine: {'line': b"   32 |             \x1b[01;35m\x1b[K'leg4_coxa_joint'\x1b[m\x1b[K, 'leg4_femur_joint', 'leg4_tibia_joint',\n"}
+[0.055460] (phantomx_package) StderrLine: {'line': b'      |             \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.055489] (phantomx_package) StderrLine: {'line': b'\x1b[01m\x1b[K/workspace/ros2_ws/src/phantomx_package/src/phantomx_node.cpp:32:32:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcharacter constant too long for its type\n'}
+[0.055518] (phantomx_package) StderrLine: {'line': b"   32 |             'leg4_coxa_joint', \x1b[01;35m\x1b[K'leg4_femur_joint'\x1b[m\x1b[K, 'leg4_tibia_joint',\n"}
+[0.055546] (phantomx_package) StderrLine: {'line': b'      |                                \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.055574] (phantomx_package) StderrLine: {'line': b'\x1b[01m\x1b[K/workspace/ros2_ws/src/phantomx_package/src/phantomx_node.cpp:32:52:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcharacter constant too long for its type\n'}
+[0.055602] (phantomx_package) StderrLine: {'line': b"   32 |             'leg4_coxa_joint', 'leg4_femur_joint', \x1b[01;35m\x1b[K'leg4_tibia_joint'\x1b[m\x1b[K,\n"}
+[0.055819] (phantomx_package) StderrLine: {'line': b'      |                                                    \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.055897] (phantomx_package) StderrLine: {'line': b'\x1b[01m\x1b[K/workspace/ros2_ws/src/phantomx_package/src/phantomx_node.cpp:33:15:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid preprocessing directive #Bein\n'}
+[0.055930] (phantomx_package) StderrLine: {'line': b'   33 |             # \x1b[01;31m\x1b[KBein\x1b[m\x1b[K 5\n'}
+[0.055959] (phantomx_package) StderrLine: {'line': b'      |               \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[0.055993] (phantomx_package) StderrLine: {'line': b'\x1b[01m\x1b[K/workspace/ros2_ws/src/phantomx_package/src/phantomx_node.cpp:34:13:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcharacter constant too long for its type\n'}
+[0.056019] (phantomx_package) StderrLine: {'line': b"   34 |             \x1b[01;35m\x1b[K'leg5_coxa_joint'\x1b[m\x1b[K, 'leg5_femur_joint', 'leg5_tibia_joint',\n"}
+[0.056045] (phantomx_package) StderrLine: {'line': b'      |             \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.056069] (phantomx_package) StderrLine: {'line': b'\x1b[01m\x1b[K/workspace/ros2_ws/src/phantomx_package/src/phantomx_node.cpp:34:32:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcharacter constant too long for its type\n'}
+[0.056096] (phantomx_package) StderrLine: {'line': b"   34 |             'leg5_coxa_joint', \x1b[01;35m\x1b[K'leg5_femur_joint'\x1b[m\x1b[K, 'leg5_tibia_joint',\n"}
+[0.056121] (phantomx_package) StderrLine: {'line': b'      |                                \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.056146] (phantomx_package) StderrLine: {'line': b'\x1b[01m\x1b[K/workspace/ros2_ws/src/phantomx_package/src/phantomx_node.cpp:34:52:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcharacter constant too long for its type\n'}
+[0.056171] (phantomx_package) StderrLine: {'line': b"   34 |             'leg5_coxa_joint', 'leg5_femur_joint', \x1b[01;35m\x1b[K'leg5_tibia_joint'\x1b[m\x1b[K,\n"}
+[0.056195] (phantomx_package) StderrLine: {'line': b'      |                                                    \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.056220] (phantomx_package) StderrLine: {'line': b'\x1b[01m\x1b[K/workspace/ros2_ws/src/phantomx_package/src/phantomx_node.cpp:35:15:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid preprocessing directive #Bein\n'}
+[0.056245] (phantomx_package) StderrLine: {'line': b'   35 |             # \x1b[01;31m\x1b[KBein\x1b[m\x1b[K 6\n'}
+[0.056269] (phantomx_package) StderrLine: {'line': b'      |               \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[0.056293] (phantomx_package) StderrLine: {'line': b'\x1b[01m\x1b[K/workspace/ros2_ws/src/phantomx_package/src/phantomx_node.cpp:36:13:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcharacter constant too long for its type\n'}
+[0.056322] (phantomx_package) StderrLine: {'line': b"   36 |             \x1b[01;35m\x1b[K'leg6_coxa_joint'\x1b[m\x1b[K, 'leg6_femur_joint', 'leg6_tibia_joint',\n"}
+[0.056347] (phantomx_package) StderrLine: {'line': b'      |             \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.056371] (phantomx_package) StderrLine: {'line': b'\x1b[01m\x1b[K/workspace/ros2_ws/src/phantomx_package/src/phantomx_node.cpp:36:32:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcharacter constant too long for its type\n'}
+[0.056396] (phantomx_package) StderrLine: {'line': b"   36 |             'leg6_coxa_joint', \x1b[01;35m\x1b[K'leg6_femur_joint'\x1b[m\x1b[K, 'leg6_tibia_joint',\n"}
+[0.056421] (phantomx_package) StderrLine: {'line': b'      |                                \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.056445] (phantomx_package) StderrLine: {'line': b'\x1b[01m\x1b[K/workspace/ros2_ws/src/phantomx_package/src/phantomx_node.cpp:36:52:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcharacter constant too long for its type\n'}
+[0.056470] (phantomx_package) StderrLine: {'line': b"   36 |             'leg6_coxa_joint', 'leg6_femur_joint', \x1b[01;35m\x1b[K'leg6_tibia_joint'\x1b[m\x1b[K,\n"}
+[0.056495] (phantomx_package) StderrLine: {'line': b'      |                                                    \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.056520] (phantomx_package) StderrLine: {'line': b'\x1b[01m\x1b[K/workspace/ros2_ws/src/phantomx_package/src/phantomx_node.cpp:42:32:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcharacter constant too long for its type\n'}
+[0.056547] (phantomx_package) StderrLine: {'line': b"   42 |         self.get_logger().info(\x1b[01;35m\x1b[K'PhantomX ROS2 Publisher Node Started!'\x1b[m\x1b[K)\n"}
+[0.056571] (phantomx_package) StderrLine: {'line': b'      |                                \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.056595] (phantomx_package) StderrLine: {'line': b'\x1b[01m\x1b[K/workspace/ros2_ws/src/phantomx_package/src/phantomx_node.cpp:43:33:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcharacter constant too long for its type\n'}
+[0.056625] (phantomx_package) StderrLine: {'line': b"   43 |         self.get_logger().info(f\x1b[01;35m\x1b[K'Publishing to /joint_command with {self.num_joints} joints'\x1b[m\x1b[K)\n"}
+[0.056666] (phantomx_package) StderrLine: {'line': b'      |                                 \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.056697] (phantomx_package) StderrLine: {'line': b'\x1b[01m\x1b[K/workspace/ros2_ws/src/phantomx_package/src/phantomx_node.cpp:48:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid preprocessing directive #Timestamp\n'}
+[0.056734] (phantomx_package) StderrLine: {'line': b'   48 |         # \x1b[01;31m\x1b[KTimestamp\x1b[m\x1b[K setzen\n'}
+[0.056769] (phantomx_package) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[0.056794] (phantomx_package) StderrLine: {'line': b'\x1b[01m\x1b[K/workspace/ros2_ws/src/phantomx_package/src/phantomx_node.cpp:50:31:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kempty character constant\n'}
+[0.056819] (phantomx_package) StderrLine: {'line': b"   50 |         msg.header.frame_id = \x1b[01;31m\x1b[K''\x1b[m\x1b[K\n"}
+[0.056843] (phantomx_package) StderrLine: {'line': b'      |                               \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[0.056868] (phantomx_package) StderrLine: {'line': b'\x1b[01m\x1b[K/workspace/ros2_ws/src/phantomx_package/src/phantomx_node.cpp:52:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid preprocessing directive #Joint\n'}
+[0.056896] (phantomx_package) StderrLine: {'line': b'   52 |         # \x1b[01;31m\x1b[KJoint\x1b[m\x1b[K Namen\n'}
+[0.056920] (phantomx_package) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[0.056945] (phantomx_package) StderrLine: {'line': b'\x1b[01m\x1b[K/workspace/ros2_ws/src/phantomx_package/src/phantomx_node.cpp:55:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid preprocessing directive #Beispiel\n'}
+[0.056969] (phantomx_package) StderrLine: {'line': b'   55 |         # \x1b[01;31m\x1b[KBeispiel\x1b[m\x1b[K: Sinuswellen-Bewegung f\xc3\xbcr Demo\n'}
+[0.056994] (phantomx_package) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[0.057018] (phantomx_package) StderrLine: {'line': b'\x1b[01m\x1b[K/workspace/ros2_ws/src/phantomx_package/src/phantomx_node.cpp:56:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid preprocessing directive #In\n'}
+[0.057043] (phantomx_package) StderrLine: {'line': b'   56 |         # \x1b[01;31m\x1b[KIn\x1b[m\x1b[K der Praxis w\xc3\xbcrdest du hier echte Trajektorien berechnen\n'}
+[0.057070] (phantomx_package) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[0.057095] (phantomx_package) StderrLine: {'line': b'\x1b[01m\x1b[K/workspace/ros2_ws/src/phantomx_package/src/phantomx_node.cpp:62:15:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid preprocessing directive #Verschiedene\n'}
+[0.057120] (phantomx_package) StderrLine: {'line': b'   62 |             # \x1b[01;31m\x1b[KVerschiedene\x1b[m\x1b[K Frequenzen f\xc3\xbcr verschiedene Gelenke\n'}
+[0.057144] (phantomx_package) StderrLine: {'line': b'      |               \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.057168] (phantomx_package) StderrLine: {'line': b'\x1b[01m\x1b[K/workspace/ros2_ws/src/phantomx_package/src/phantomx_node.cpp:64:30:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kstray \xe2\x80\x98\x1b[01m\x1b[K#\x1b[m\x1b[K\xe2\x80\x99 in program\n'}
+[0.057204] (phantomx_package) StderrLine: {'line': b'   64 |             amplitude = 0.3  \x1b[01;31m\x1b[K#\x1b[m\x1b[K Radians\n'}
+[0.057232] (phantomx_package) StderrLine: {'line': b'      |                              \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[0.057259] (phantomx_package) StderrLine: {'line': b'\x1b[01m\x1b[K/workspace/ros2_ws/src/phantomx_package/src/phantomx_node.cpp:66:15:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid preprocessing directive #Position\n'}
+[0.057287] (phantomx_package) StderrLine: {'line': b'   66 |             # \x1b[01;31m\x1b[KPosition\x1b[m\x1b[K als Sinuswelle\n'}
+[0.057314] (phantomx_package) StderrLine: {'line': b'      |               \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[0.057341] (phantomx_package) StderrLine: {'line': b'\x1b[01m\x1b[K/workspace/ros2_ws/src/phantomx_package/src/phantomx_node.cpp:70:15:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid preprocessing directive #Velocity\n'}
+[0.057368] (phantomx_package) StderrLine: {'line': b'   70 |             # \x1b[01;31m\x1b[KVelocity\x1b[m\x1b[K (Ableitung der Position)\n'}
+[0.057396] (phantomx_package) StderrLine: {'line': b'      |               \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[0.057424] (phantomx_package) StderrLine: {'line': b'\x1b[01m\x1b[K/workspace/ros2_ws/src/phantomx_package/src/phantomx_node.cpp:74:15:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid preprocessing directive #Effort\n'}
+[0.057483] (phantomx_package) StderrLine: {'line': b'   74 |             # \x1b[01;31m\x1b[KEffort\x1b[m\x1b[K (kannst du auf 0 setzen wenn nicht ben\xc3\xb6tigt)\n'}
+[0.057519] (phantomx_package) StderrLine: {'line': b'      |               \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[0.057546] (phantomx_package) StderrLine: {'line': b'\x1b[01m\x1b[K/workspace/ros2_ws/src/phantomx_package/src/phantomx_node.cpp:81:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid preprocessing directive #Publishen\n'}
+[0.057574] (phantomx_package) StderrLine: {'line': b'   81 |         # \x1b[01;31m\x1b[KPublishen\x1b[m\x1b[K\n'}
+[0.057601] (phantomx_package) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[0.057697] (phantomx_package) StderrLine: {'line': b'\x1b[01m\x1b[K/workspace/ros2_ws/src/phantomx_package/src/phantomx_node.cpp:84:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid preprocessing directive #Zeit\n'}
+[0.057753] (phantomx_package) StderrLine: {'line': b'   84 |         # \x1b[01;31m\x1b[KZeit\x1b[m\x1b[K inkrementieren\n'}
+[0.057784] (phantomx_package) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[0.057817] (phantomx_package) StderrLine: {'line': b'\x1b[01m\x1b[K/workspace/ros2_ws/src/phantomx_package/src/phantomx_node.cpp:99:16:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcharacter constant too long for its type\n'}
+[0.057847] (phantomx_package) StderrLine: {'line': b"   99 | if __name__ == \x1b[01;35m\x1b[K'__main__'\x1b[m\x1b[K:\n"}
+[0.057882] (phantomx_package) StderrLine: {'line': b'      |                \x1b[01;35m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.057914] (phantomx_package) StderrLine: {'line': b'\x1b[01m\x1b[K/workspace/ros2_ws/src/phantomx_package/src/phantomx_node.cpp:2:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kimport\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[0.057945] (phantomx_package) StderrLine: {'line': b'    2 | \x1b[01;31m\x1b[Kimport\x1b[m\x1b[K rclpy\n'}
+[0.057975] (phantomx_package) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[0.058007] (phantomx_package) StderrLine: {'line': b'\x1b[01m\x1b[K/workspace/ros2_ws/src/phantomx_package/src/phantomx_node.cpp:2:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[KC++20 \xe2\x80\x98\x1b[01m\x1b[Kimport\x1b[m\x1b[K\xe2\x80\x99 only available with \xe2\x80\x98\x1b[01m\x1b[K-fmodules-ts\x1b[m\x1b[K\xe2\x80\x99\n'}
+[0.058039] (phantomx_package) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/phantomx_node.dir/build.make:76: CMakeFiles/phantomx_node.dir/src/phantomx_node.cpp.o] Error 1\n'}
+[0.058118] (phantomx_package) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/phantomx_node.dir/all] Error 2\n'}
+[0.058153] (phantomx_package) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[0.058463] (phantomx_package) CommandEnded: {'returncode': 2}
+[0.065266] (phantomx_package) JobEnded: {'identifier': 'phantomx_package', 'rc': 2}
+[0.075750] (-) EventReactorShutdown: {}
