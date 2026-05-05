@@ -99,184 +99,190 @@
 				"parent" : 0
 			},
 			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 28,
+				"parent" : 0
+			},
+			{
 				"command" : 9,
 				"file" : 3,
-				"line" : 40,
+				"line" : 51,
 				"parent" : 0
 			},
 			{
 				"command" : 8,
 				"file" : 7,
 				"line" : 66,
-				"parent" : 11
+				"parent" : 12
 			},
 			{
 				"command" : 7,
 				"file" : 6,
 				"line" : 48,
-				"parent" : 12
+				"parent" : 13
 			},
 			{
 				"file" : 5,
-				"parent" : 13
+				"parent" : 14
 			},
 			{
 				"command" : 6,
 				"file" : 5,
 				"line" : 47,
-				"parent" : 14
+				"parent" : 15
 			},
 			{
 				"command" : 5,
 				"file" : 5,
 				"line" : 29,
-				"parent" : 15
+				"parent" : 16
 			},
 			{
 				"command" : 0,
 				"file" : 4,
 				"line" : 105,
-				"parent" : 16
+				"parent" : 17
 			},
 			{
 				"command" : 10,
 				"file" : 5,
 				"line" : 48,
-				"parent" : 14
+				"parent" : 15
 			},
 			{
 				"command" : 5,
 				"file" : 5,
 				"line" : 43,
-				"parent" : 18
+				"parent" : 19
 			},
 			{
 				"command" : 0,
 				"file" : 4,
 				"line" : 105,
-				"parent" : 19
+				"parent" : 20
 			},
 			{
 				"command" : 7,
 				"file" : 6,
 				"line" : 48,
-				"parent" : 12
+				"parent" : 13
 			},
 			{
 				"file" : 8,
-				"parent" : 21
+				"parent" : 22
 			},
 			{
 				"command" : 1,
 				"file" : 8,
 				"line" : 20,
-				"parent" : 22
-			},
-			{
-				"command" : 0,
-				"file" : 0,
-				"line" : 70,
-				"parent" : 23
-			},
-			{
-				"command" : 0,
-				"file" : 0,
-				"line" : 87,
 				"parent" : 23
 			},
 			{
 				"command" : 0,
 				"file" : 0,
 				"line" : 70,
-				"parent" : 23
+				"parent" : 24
 			},
 			{
 				"command" : 0,
 				"file" : 0,
 				"line" : 87,
-				"parent" : 23
+				"parent" : 24
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 70,
+				"parent" : 24
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 87,
+				"parent" : 24
 			},
 			{
 				"command" : 11,
 				"file" : 8,
 				"line" : 26,
-				"parent" : 22
+				"parent" : 23
 			},
 			{
 				"command" : 0,
 				"file" : 9,
 				"line" : 91,
-				"parent" : 28
+				"parent" : 29
 			},
 			{
 				"command" : 0,
 				"file" : 9,
 				"line" : 91,
-				"parent" : 28
+				"parent" : 29
 			},
 			{
 				"command" : 0,
 				"file" : 9,
 				"line" : 91,
-				"parent" : 28
+				"parent" : 29
 			},
 			{
 				"command" : 0,
 				"file" : 9,
 				"line" : 107,
-				"parent" : 28
+				"parent" : 29
 			},
 			{
 				"command" : 0,
 				"file" : 9,
 				"line" : 120,
-				"parent" : 28
+				"parent" : 29
 			},
 			{
 				"command" : 7,
 				"file" : 6,
 				"line" : 48,
-				"parent" : 12
+				"parent" : 13
 			},
 			{
 				"file" : 11,
-				"parent" : 34
+				"parent" : 35
 			},
 			{
 				"command" : 12,
 				"file" : 11,
 				"line" : 16,
-				"parent" : 35
+				"parent" : 36
 			},
 			{
 				"command" : 5,
 				"file" : 10,
 				"line" : 29,
-				"parent" : 36
+				"parent" : 37
 			},
 			{
 				"command" : 0,
 				"file" : 4,
 				"line" : 105,
-				"parent" : 37
+				"parent" : 38
 			},
 			{
 				"command" : 13,
 				"file" : 7,
 				"line" : 68,
-				"parent" : 11
+				"parent" : 12
 			},
 			{
 				"command" : 0,
 				"file" : 7,
 				"line" : 150,
-				"parent" : 39
+				"parent" : 40
 			},
 			{
 				"command" : 0,
 				"file" : 7,
 				"line" : 157,
-				"parent" : 39
+				"parent" : 40
 			}
 		]
 	},
@@ -336,17 +342,32 @@
 		{
 			"backtrace" : 10,
 			"component" : "Unspecified",
+			"destination" : "share/phantomx_package",
+			"paths" : 
+			[
+				"launch",
+				"scripts",
+				"src"
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 11,
+			"component" : "Unspecified",
 			"destination" : "lib/phantomx_package",
 			"paths" : 
 			[
 				"scripts/controll_joints/phantomx_node_single_joint.py",
 				"scripts/controll_joints/phantomx_node_multi_joints.py",
-				"scripts/policy/phantomx_apply_policy.py"
+				"scripts/policy/phantomx_apply_policy.py",
+				"launch/launch_phantomx_policycontroll.launch.py",
+				"src/fake_imu_data.py",
+				"src/fake_joint_state.py"
 			],
 			"type" : "file"
 		},
 		{
-			"backtrace" : 17,
+			"backtrace" : 18,
 			"component" : "Unspecified",
 			"destination" : "share/ament_index/resource_index/package_run_dependencies",
 			"paths" : 
@@ -356,7 +377,7 @@
 			"type" : "file"
 		},
 		{
-			"backtrace" : 20,
+			"backtrace" : 21,
 			"component" : "Unspecified",
 			"destination" : "share/ament_index/resource_index/parent_prefix_path",
 			"paths" : 
@@ -366,7 +387,7 @@
 			"type" : "file"
 		},
 		{
-			"backtrace" : 24,
+			"backtrace" : 25,
 			"component" : "Unspecified",
 			"destination" : "share/phantomx_package/environment",
 			"paths" : 
@@ -376,7 +397,7 @@
 			"type" : "file"
 		},
 		{
-			"backtrace" : 25,
+			"backtrace" : 26,
 			"component" : "Unspecified",
 			"destination" : "share/phantomx_package/environment",
 			"paths" : 
@@ -386,7 +407,7 @@
 			"type" : "file"
 		},
 		{
-			"backtrace" : 26,
+			"backtrace" : 27,
 			"component" : "Unspecified",
 			"destination" : "share/phantomx_package/environment",
 			"paths" : 
@@ -396,7 +417,7 @@
 			"type" : "file"
 		},
 		{
-			"backtrace" : 27,
+			"backtrace" : 28,
 			"component" : "Unspecified",
 			"destination" : "share/phantomx_package/environment",
 			"paths" : 
@@ -406,7 +427,7 @@
 			"type" : "file"
 		},
 		{
-			"backtrace" : 29,
+			"backtrace" : 30,
 			"component" : "Unspecified",
 			"destination" : "share/phantomx_package",
 			"paths" : 
@@ -416,7 +437,7 @@
 			"type" : "file"
 		},
 		{
-			"backtrace" : 30,
+			"backtrace" : 31,
 			"component" : "Unspecified",
 			"destination" : "share/phantomx_package",
 			"paths" : 
@@ -426,7 +447,7 @@
 			"type" : "file"
 		},
 		{
-			"backtrace" : 31,
+			"backtrace" : 32,
 			"component" : "Unspecified",
 			"destination" : "share/phantomx_package",
 			"paths" : 
@@ -436,7 +457,7 @@
 			"type" : "file"
 		},
 		{
-			"backtrace" : 32,
+			"backtrace" : 33,
 			"component" : "Unspecified",
 			"destination" : "share/phantomx_package",
 			"paths" : 
@@ -446,7 +467,7 @@
 			"type" : "file"
 		},
 		{
-			"backtrace" : 33,
+			"backtrace" : 34,
 			"component" : "Unspecified",
 			"destination" : "share/phantomx_package",
 			"paths" : 
@@ -456,7 +477,7 @@
 			"type" : "file"
 		},
 		{
-			"backtrace" : 38,
+			"backtrace" : 39,
 			"component" : "Unspecified",
 			"destination" : "share/ament_index/resource_index/packages",
 			"paths" : 
@@ -466,7 +487,7 @@
 			"type" : "file"
 		},
 		{
-			"backtrace" : 40,
+			"backtrace" : 41,
 			"component" : "Unspecified",
 			"destination" : "share/phantomx_package/cmake",
 			"paths" : 
@@ -477,7 +498,7 @@
 			"type" : "file"
 		},
 		{
-			"backtrace" : 41,
+			"backtrace" : 42,
 			"component" : "Unspecified",
 			"destination" : "share/phantomx_package",
 			"paths" : 

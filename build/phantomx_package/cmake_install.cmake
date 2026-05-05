@@ -67,10 +67,21 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/phantomx_package" TYPE DIRECTORY FILES
+    "/workspace/ros2_ws/src/phantomx_package/launch"
+    "/workspace/ros2_ws/src/phantomx_package/scripts"
+    "/workspace/ros2_ws/src/phantomx_package/src"
+    )
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/phantomx_package" TYPE PROGRAM FILES
     "/workspace/ros2_ws/src/phantomx_package/scripts/controll_joints/phantomx_node_single_joint.py"
     "/workspace/ros2_ws/src/phantomx_package/scripts/controll_joints/phantomx_node_multi_joints.py"
     "/workspace/ros2_ws/src/phantomx_package/scripts/policy/phantomx_apply_policy.py"
+    "/workspace/ros2_ws/src/phantomx_package/launch/launch_phantomx_policycontroll.launch.py"
+    "/workspace/ros2_ws/src/phantomx_package/src/fake_imu_data.py"
+    "/workspace/ros2_ws/src/phantomx_package/src/fake_joint_state.py"
     )
 endif()
 

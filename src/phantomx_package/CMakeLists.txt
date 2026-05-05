@@ -16,11 +16,22 @@ find_package(sensor_msgs REQUIRED)
 # Python package installation
 ament_python_install_package(${PROJECT_NAME})
 
+# Installiere den launch-Ordner
+install(DIRECTORY
+  launch
+  scripts
+  src
+  DESTINATION share/${PROJECT_NAME}
+)
+
 # Install Python executables (REMOVE add_executable for .py files!)
 install(PROGRAMS
   scripts/controll_joints/phantomx_node_single_joint.py
   scripts/controll_joints/phantomx_node_multi_joints.py
   scripts/policy/phantomx_apply_policy.py
+  launch/launch_phantomx_policycontroll.launch.py
+  src/fake_imu_data.py
+  src/fake_joint_state.py
   DESTINATION lib/${PROJECT_NAME}
 )
 
