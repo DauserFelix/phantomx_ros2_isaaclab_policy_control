@@ -5,6 +5,7 @@
 /workspace/ros2_ws/install/phantomx_package/lib/python3.12/site-packages/phantomx_package-0.0.0-py3.12.egg-info/PKG-INFO
 /workspace/ros2_ws/install/phantomx_package/lib/python3.12/site-packages/phantomx_package-0.0.0-py3.12.egg-info/dependency_links.txt
 /workspace/ros2_ws/install/phantomx_package/lib/python3.12/site-packages/phantomx_package/__init__.py
+/workspace/ros2_ws/install/phantomx_package/share/phantomx_package/launch/__pycache__/launch_phantomx_policycontroll.launch.cpython-312.pyc
 /workspace/ros2_ws/install/phantomx_package/share/phantomx_package/launch/launch_phantomx_policycontroll.launch.py
 /workspace/ros2_ws/install/phantomx_package/share/phantomx_package/scripts/controll_joints/phantomx_node_multi_joints.py
 /workspace/ros2_ws/install/phantomx_package/share/phantomx_package/scripts/controll_joints/phantomx_node_single_joint.py
